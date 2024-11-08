@@ -9,9 +9,6 @@ class ShowcaseImage extends StatelessWidget {
       color: Colors.orange,
       child: Image.asset(
         'images/people.png',
-        fit: BoxFit.contain,
-        width: double.maxFinite,
-        height: double.maxFinite,
       ),
     );
   }

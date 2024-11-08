@@ -1,4 +1,4 @@
-import 'package:droidconke_showcase/showcase_1/showcase_grid.dart';
+import 'package:droidconke_showcase/demysify/the_drags_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        useMaterial3: false,
       ),
-      home: const ShowcaseGrid(),
+      home: const TheDragsPage(),
     );
   }
 }
